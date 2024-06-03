@@ -15,7 +15,7 @@
     --rt-color-boredrcolor: #dedede;
     --rt-color-iconcolor: #000000;
     --rt-color-imageshadow: #b8b8b8;
-    --rt-color-btnhover: #4a4545;
+    --rt-color-btnhover: #524d4d;
 
 
 }
@@ -28,7 +28,7 @@
     --rt-color-iconcolor: #D4ED6D;
     --rt-color-info: #FF73B5;
     --rt-color-imageshadow: none;
-    --rt-color-btnhover:#d17bf7;
+    --rt-color-btnhover: #c955fb;
 }
 
 * {
