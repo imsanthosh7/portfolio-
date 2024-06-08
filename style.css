@@ -16,6 +16,7 @@
     --rt-color-iconcolor: #000000;
     --rt-color-imageshadow: #b8b8b8;
     --rt-color-btnhover: #524d4d;
+    --rt-color-linkhover:#33a0ff;
 
 
 }
@@ -29,6 +30,7 @@
     --rt-color-info: #FF73B5;
     --rt-color-imageshadow: none;
     --rt-color-btnhover: #c955fb;
+    --rt-color-linkhover:#FF73B5;
 }
 
 * {
@@ -380,7 +382,7 @@ nav {
 }
 
 .project-link h3:hover {
-    color: #33a0ff;
+    color: var(--rt-color-linkhover); 
 }
 
 .project-link h3 i {
