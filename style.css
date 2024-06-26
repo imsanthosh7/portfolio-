@@ -17,7 +17,8 @@
     --rt-color-imageshadow: #b8b8b8;
     --rt-color-btnhover: #524d4d;
     --rt-color-linkhover:#33a0ff;
-  
+    --rt-color-linkhover:#33a0ff;
+    --rt-color-linkhover:#33a0ff;
 
 
 }
@@ -494,7 +495,7 @@ nav {
 /* copyright section  */
 .copyright {
     text-align: center;
-    padding: 22px 5px;
+    padding: 20px 5px;
     background-color: var(--rt-color-boredr);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -593,7 +594,9 @@ nav {
         font-size: 1.2rem;
 
     }
-
+    .copyright{
+        padding: 17px 5px;
+    }
     .copyright p {
         font-size: 0.8rem;
         padding-right: 7px;
