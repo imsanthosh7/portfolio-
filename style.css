@@ -345,13 +345,14 @@ nav {
 }
 
 .project-text img {
-    width: 68px;
+    width: 22%;
     margin-bottom: 0.8rem;
 
 }
 .project-text.booklogo img{
     width: 50px;
 }
+
 
 
 .project-text p {
@@ -655,7 +656,7 @@ nav {
     }
    
     .project-text img {
-        width: 70px;
+        width: 25%;
         margin-bottom: 0.8rem;
     
     }
