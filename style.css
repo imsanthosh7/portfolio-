@@ -72,10 +72,10 @@ body {
 }
 
 .navlogo h2 {
-    font-size: 17px;
+    font-size: 25px;
     color: var(--rt-color-dark);
     /* font-family: "Josefin Sans", sans-serif; */
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .darkmode-btn p i {
@@ -686,7 +686,7 @@ nav {
     }
 
     .navlogo h2 {
-        font-size: 24px;
+        font-size: 19px;
     }
 
     .home,
