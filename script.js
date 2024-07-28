@@ -9,6 +9,7 @@ function darkmode(){
         mode.className = "fa-solid fa-moon"
     }
 }
+
 // scroll top 
 let scrolltop = document.querySelector('.scroll-top');
 
