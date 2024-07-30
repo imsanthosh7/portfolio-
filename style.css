@@ -21,6 +21,7 @@
     --rt-color-linkhover: #33a0ff;
     --rt-color-textbg: #e8e8e8;
     --rt-color-textbg: #d7d7d7;
+    --rt-color-navblur: #ffffff80;
 
 }
 
@@ -35,6 +36,7 @@
     --rt-color-btnhover: #cacaca;
     --rt-color-linkhover: #33a0ff;
     --rt-color-textbg: #454545;
+    --rt-color-navblur: #10101080;
 }
 
 * {
@@ -92,10 +94,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 1.9rem;
-    /* background-color: var(--rt-color-bg); */
-    background: transparent;
-    backdrop-filter: blur(10px);
-    box-shadow: 1px 1px 6px var(--rt-color-boredrcolor); 
+    background-color: var(--rt-color-navblur);
+    -webkit-backdrop-filter:blur(10px) saturate(100%);
+    backdrop-filter: blur(10px) saturate(100%);
+    /* box-shadow: 1px 1px 6px var(--rt-color-boredrcolor);  */
     position: fixed;
     z-index: 10;
     text-align: center;
