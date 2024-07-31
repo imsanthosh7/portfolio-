@@ -23,6 +23,8 @@
     --rt-color-textbg: #d7d7d7;
     --rt-color-navblur: #ffffff80;
 
+
+
 }
 
 :root .darkmode {
@@ -37,6 +39,7 @@
     --rt-color-linkhover: #33a0ff;
     --rt-color-textbg: #454545;
     --rt-color-navblur: #10101080;
+    transition: background-color 0.5s, color 0.5s; 
 }
 
 * {
